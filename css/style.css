@@ -423,3 +423,15 @@ ul a {
 .group-section {
   padding: 15px 0px;
 }
+/* footer ends */
+
+#preloader {
+  background: #000 url("../images/preloader4.gif") no-repeat center center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+
