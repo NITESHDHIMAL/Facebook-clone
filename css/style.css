@@ -98,14 +98,16 @@ ul a {
   top: 58px;
   flex-basis: 20%;
   color: whitesmoke;
-  overflow-y:auto ;
+  overflow-x: hidden;
 }
 .left-section:hover {
-  /* overflow-y: scroll; */
   /* overflow-x: hidden; */
   cursor: pointer;
 }
-
+/* .left-section::-webkit-scrollbar{
+  display: none;
+} */
+ 
 .left-section .left-links ul li:hover,
 .right-section .advertisement1:hover,
 .user-contact:hover {
